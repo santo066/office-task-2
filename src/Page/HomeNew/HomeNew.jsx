@@ -1,6 +1,7 @@
 import FaqNew from "./FaqNew/FaqNew";
 import FeatureNew from "./Feature/FeatureNew";
 import HeroNew from "./Hero/HeroNew";
+import Marketing from "./Marketing/Marketing";
 import OnePlace from "./OnePlace/OnePlace";
 import SliderNew from "./SliderNew/SliderNew";
 
@@ -12,6 +13,7 @@ export default function HomeNew() {
             <FeatureNew></FeatureNew>
             <FaqNew></FaqNew>
             <OnePlace></OnePlace>
+            <Marketing></Marketing>
         </div>
     )
 }
