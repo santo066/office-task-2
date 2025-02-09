@@ -11,9 +11,9 @@ export default function HomeNew() {
             <HeroNew></HeroNew>
             <SliderNew></SliderNew>
             <FeatureNew></FeatureNew>
-            <FaqNew></FaqNew>
             <OnePlace></OnePlace>
             <Marketing></Marketing>
+            <FaqNew></FaqNew>
         </div>
     )
 }

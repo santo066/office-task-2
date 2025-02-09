@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import "../../Homenew.css"
+import logo from "../../assets/Screenshot_105.png"
 
 export default function HeaderNew() {
     return (
@@ -37,7 +38,9 @@ export default function HeaderNew() {
                                 <li><a>Item 3</a></li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl">daisyUI</a>
+                        <a className="btn btn-ghost text-xl">
+                            <img src={logo} alt="" />
+                        </a>
                     </div>
                     <div className="navbar-end hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
